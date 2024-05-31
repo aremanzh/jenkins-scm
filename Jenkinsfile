@@ -23,7 +23,7 @@ pipeline {
                 . .venv/bin/activate
                 pip install DateTime
                 python3 -V
-                python3 py_test.py
+                python3 kualalumpur.py
                 '''
             }
         }
